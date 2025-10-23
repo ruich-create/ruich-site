@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUICH.com - Marketplace for Transport, Plots & Houses in Rwanda</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Shop transport, plots, and houses on RUICH.com. Book now, real deals in Rwanda. Murakaza neza!">
+</head>
+<body>
+    <header>
+        <div class="logo">RUICH Marketplace</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Murakaza Neza! Shop RUICH Rwanda</h1>
+            <p>Browse and book transport, prime plots, or dream houses. Secure, fast, and local.</p>
+            <a href="#shop" class="cta">Start Shopping</a>
+        </section>
+
+        <section id="shop" class="shop-grid">
+            <div class="product-tile" data-item="transport">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4" alt="Transport Service" class="tile-img" loading="lazy">
+                <h3>Group Transport</h3>
+                <p>Van rental: RWF 15,000/day. Up to 8 passengers.</p>
+                <div class="price">RWF 15,000</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-tile" data-item="plot">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Plot Listing" class="tile-img" loading="lazy">
+                <h3>Prime Plot</h3>
+                <p>500m² in Kigali: RWF 12M. Build-ready.</p>
+                <div class="price">RWF 12,000,000</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-tile" data-item="house">
+                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="House Listing" class="tile-img" loading="lazy">
+                <h3>Modern House</h3>
+                <p>3-bed villa: RWF 80M. Includes view.</p>
+                <div class="price">RWF 80,000,000</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </section>
+
+        <aside id="cart" class="cart-sidebar">
+            <h3>Your Cart</h3>
+            <div id="cart-items"></div>
+            <div id="cart-total">Total: RWF 0</div>
+            <button id="checkout-btn" class="cta">Checkout</button>
+        </aside>
+
+        <section id="contact">
+            <h2>Ready to Buy?</h2>
+            <p>Phone: +250 788 123 456 | Email: shop@ruich.com | WhatsApp: <a href="https://wa.me/250788123456">Message</a></p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Cart details or inquiry" required></textarea>
+                <button type="submit">Send Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 RUICH.com | Rwanda's Marketplace | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
